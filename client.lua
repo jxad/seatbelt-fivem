@@ -77,7 +77,7 @@ Citizen.CreateThread(function()
             TriggerEvent("seatbelt:sounds", "buckle", Config.Volume)
             end
             if Config.Notification then
-            Notify("Hai ~g~allacciato ~w~la ~g~cintura")
+            Notify("~g~Seat Belt Attached")
             end
             
             if Config.Blinker then
@@ -86,7 +86,7 @@ Citizen.CreateThread(function()
             isUiOpen = true 
           else 
             if Config.Notification then
-            Notify("Hai ~r~slacciato ~w~la ~r~cintura")
+            Notify("~r~Seat Belt detached")
             end
 
             if Config.Sounds then

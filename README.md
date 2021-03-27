@@ -10,5 +10,5 @@ Installing:
 
 1. Download zip or clone repo.
 2. Add folder to your fivem server.
-3. Rename the folder seatbelt
-4 Add start seatbelt to your server.cfg
+3. Rename the folder seatbelt.
+4. Add start seatbelt to your server.cfg
